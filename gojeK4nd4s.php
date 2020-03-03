@@ -2,30 +2,11 @@
 
 error_reporting(0);
 include ("func.php");
-echo "\e            GOJEK VERSI 1.7.1            \n";
-echo "\e SCRIPT GOJEK AUTO REGISTER + AUTO CLAIM VOUCHER\n";
-echo "
-⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤
-⣿⠀⠀⣿⢱⣾⠉⣿⢱⢾⠑⣾⠉⣿⢱⣾⢱⡇⣿⣾⢱⠀⠀⣿
-⣿⠀⠀⣿⠁⣿⣉⣿⢱⢄⡷⣿⣉⣿⡱⣿⢹⢌⡿⣿⢹⠀⠀⣿
-⣿⢛⢛⢛⢛⢛⢛⢛⢛⢛⢛⡛⢛⡛⡛⡛⡛⡛⡛⡛⡛⡛⡛⣿
-⣿⡸⣿⣿⣿⣿⣿⣿⣿⣿⠟⣐⣂⠻⣿⣿⣿⣿⣿⡫⣵⣿⢇⣿
-⣿⡸⣿⣿⣷⡀⢙⠋⠉⠉⢹⡰⢆⡏⠜⠜⠴⠋⡪⣪⣿⣿⢇⣿
-⣿⡸⣿⣿⠋⢕⠀⠅⡠⠄⣼⡰⢆⣧⢢⢢⢤⡀⡪⣾⣿⣿⢇⣿
-⣿⡸⡈⢫⠀⢕⠀⠅⣴⣶⣾⡰⢆⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿
-⣿⡸⣇⠀⠀⠀⠀⠑⣿⣿⣿⡰⢆⣿⢦⣉⠩⠉⠙⢿⣿⣿⢇⣿
-⣿⡸⣿⣷⡪⠀⠀⡀⠹⣿⡟⡰⢆⢻⣶⣦⣀⡀⠀⡀⠻⢻⢇⣿
-⣿⡸⣿⣿⣿⣦⡑⢄⡀⠙⡏⡰⢆⢹⣿⣧⡈⠃⠀⢄⠀⣸⢇⣿
-⣿⡸⣿⣿⣿⣿⣿⣿⣿⣿⡏⡰⢆⢹⣿⡿⣷⡤⠀⡑⠀⣿⢇⣿
-⢿⣸⣿⣿⣿⣿⡿⠟⠛⠛⡏⡰⢆⢹⠛⠁⡀⠔⠁⠀⣼⣿⣇⡿
-⠹⣆⢻⣿⡿⠡⣐⣈⣈⣈⡗⣒⣒⢺⠀⠁⠀⣀⣠⣾⣿⡟⣸⠏
-⠀⢻⣄⢿⣇⣼⣿⣿⣿⢟⠜⣭⠉⣣⡻⣅⠚⢿⣿⣿⡿⣠⡟⠀
-⠀⠀⠹⣦⠹⢿⣿⠋⠬⢭⠛⣤⠛⣤⡭⠥⠙⣾⡿⠏⣴⠏⠀⠀
-⠀⠀⠀⠀⠻⣦⣌⠙⠛⠿⢷⣤⣭⡾⠿⠛⠋⣡⣴⠟⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠉⠛⠻⢶⣦⣤⣤⣴⡶⠟⠛⠉⠀⠀⠀⠀⠀⠀
+echo "\e        GOJEK VERSI 1.7.1 BY:CyberK4nd4s         \n";
+echo "\e SCRIPT GOJEK AUTO REGISTRASI + AUTO CLAIM VOUCHER\n";
 echo "\n";
 nope:
-echo "\e[?] Masukkan Nomor HP Anda : ";
+echo "\e[?] Masukkan Nomor HP Anda (+62) : ";
 $nope = trim(fgets(STDIN));
 $cek = cekno($nope);
 if ($cek == false)
