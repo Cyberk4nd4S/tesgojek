@@ -2,11 +2,9 @@
 
 error_reporting(0);
 include ("func.php");
-echo "\e -----------------------------------------------------
 echo "\e                GOJEK VERSI 1.7.1        \n";
 echo "\e SCRIPT GOJEK AUTO REGISTRASI + AUTO CLAIM VOUCHER\n";
 echo "\e By : CyberK4nd4s - Bonek 1927
-echo "\e -----------------------------------------------------
 echo "\n";
 nope:
 echo "\e[?] Masukkan Nomor HP Anda (+62) : ";
