@@ -64,7 +64,7 @@ if ($register == false)
 		fclose($h); 
                 echo "\e[!] Trying to redeem Voucher : G-MPW4WBM !\n";
                 sleep(3);
-            $claim = reff($verif);
+            $claim = cekvocer($verif);
             if ($claim == false){
             echo "\e[!] Failed to Claim Voucher, Try to Claim Manually\n";
             }else{
